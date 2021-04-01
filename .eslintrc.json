@@ -28,6 +28,7 @@
     "prettier/prettier": "error",
     "space-before-function-paren": "off",
     "react/jsx-props-no-spreading": "off",
+    "import/prefer-default-export": "off",
     "react/prop-types": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
