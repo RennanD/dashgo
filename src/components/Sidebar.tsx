@@ -23,7 +23,7 @@ export function Sidebar(): JSX.Element {
               </Text>
             </Link>
 
-            <Link href="/dashboard" display="flex" align="center">
+            <Link href="/users" display="flex" align="center">
               <Icon as={RiContactsLine} fontSize="20" />
               <Text marginLeft="4" fontWeight="medium">
                 Usuários
