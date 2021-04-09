@@ -74,5 +74,5 @@ Our app is runnig on [localhost:3000](http://localhost:3000)
 # App Demo
 
 <h1 align="center">
-    <img alt = "Web app" src = "./.github/dashgo.gif" width = "700px" />
+    <img alt = "Web app" src = "./.github/dashgo.gif" width = "900px" />
 </h1>
