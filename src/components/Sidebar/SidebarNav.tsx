@@ -23,11 +23,11 @@ export function SidebarNav(): JSX.Element {
       </NavSection>
 
       <NavSection title="GERAL">
-        <NavLink icon={RiInputMethodLine} path="/users">
+        <NavLink icon={RiInputMethodLine} path="/forms">
           Formulários
         </NavLink>
 
-        <NavLink icon={RiGitMergeLine} path="/users">
+        <NavLink icon={RiGitMergeLine} path="/automation">
           Automação
         </NavLink>
       </NavSection>

@@ -17,7 +17,7 @@ export function TextInput({ name, label, ...rest }: InputProps): JSX.Element {
       <Input
         id={name}
         name={name}
-        focusBorderColor="pink-500"
+        focusBorderColor="pink.500"
         background="gray.900"
         variant="filled"
         _hover={{
