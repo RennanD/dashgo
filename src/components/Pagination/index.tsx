@@ -10,7 +10,7 @@ export function Pagination(): JSX.Element {
   return (
     <Stack
       spacing="6"
-      direction="row"
+      direction={['column', 'row']}
       marginTop="8"
       justify="space-between"
       align="center"
@@ -21,6 +21,7 @@ export function Pagination(): JSX.Element {
       <Stack direction="row" spacing="2">
         {pages.map(page => (
           <PaginationItem
+            key={page}
             onClick={() => setCurrentPage(page)}
             isCurrent={currentPage === page}
             pageNumber={page}
