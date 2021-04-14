@@ -25,20 +25,25 @@ export default function CreateUser(): JSX.Element {
         paddingX="6"
       >
         <Sidebar />
-        <Box flex="1" borderRadius={8} background="gray.800" padding="8">
+        <Box
+          flex="1"
+          borderRadius={8}
+          background="gray.800"
+          padding={['6', '8']}
+        >
           <Heading size="lg" fontWeight="normal">
             Criar usuário
           </Heading>
 
           <Divider marginY="6" borderColor="gray.700" />
 
-          <VStack spacing="8">
-            <SimpleGrid minChildWidth="240px" spacing="8" width="100%">
+          <VStack spacing={['6', '8']}>
+            <SimpleGrid minChildWidth="240px" spacing={['6', '8']} width="100%">
               <TextInput name="name" label="Nome completo" />
               <TextInput name="email" label="E-mail" type="email" />
             </SimpleGrid>
 
-            <SimpleGrid minChildWidth="240px" spacing="8" width="100%">
+            <SimpleGrid minChildWidth="240px" spacing={['6', '8']} width="100%">
               <TextInput name="password" label="Senha" type="password" />
               <TextInput
                 name="password-confirmation"
